@@ -1,0 +1,25 @@
+meta {
+  name: Sync
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/sync
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTQyZDVhZTk0ZGQ1YTY2ZTY0MGQxYjAiLCJpYXQiOjE3NjU5ODc3NTgsImV4cCI6MTc2NjU5MjU1OH0.M0mkCQ2iUVdYDOyo_Fo0iYtKUap51NjGUIdqS6USDNE
+}
+
+body:json {
+  {
+    "values": {
+      "storea": {"a": 1},
+      "storeb": {"a": 3}
+    },
+    "timestamp": "2025-12-17T15:53:59.771Z"
+  }
+}
