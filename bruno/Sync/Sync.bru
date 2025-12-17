@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: http://localhost:3000/api/sync
+  url: {{host}}/api/sync
   body: json
   auth: bearer
 }
@@ -17,9 +17,8 @@ auth:bearer {
 body:json {
   {
     "values": {
-      "storea": {"a": 1},
-      "storeb": {"a": 3}
+      "storea": {"a": 1}
     },
-    "timestamp": "2025-12-17T15:53:59.771Z"
+    "timestamp": "2025-12-17T16:14:44.386Z"
   }
 }
