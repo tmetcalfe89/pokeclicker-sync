@@ -1,4 +1,4 @@
-# Local Storage Sync API
+# Pokeclicker Sync API
 
 The backend service backs the browser extensions by providing user authentication and localStorage synchronization. All endpoints assume a base URL derived from `PORT` (default `3000`), so a local server listens on `http://localhost:3000` unless deployed elsewhere.
 
